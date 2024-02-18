@@ -1,7 +1,7 @@
 {
   "name": "@jpmourag/powerfulds",
   "version": "1.0.0",
-  "description": "A simple package to make the application more performant",
+  "description": "A simple package to make the application more elegant and performant",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -9,11 +9,17 @@
     "test": "npx tsc -p ./tsconfig.test.json && node --test ./dist-test"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/jpmourag/Powerful-Data-Structure.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "performance",
+    "speed",
+    "data structure",
+    "generators"
+  ],
+  "author": "João Pedro de Moura Góes (https://github.com/jpmourag)",
+  "license": "MIT",
   "devDependencies": {
     "@types/benchmark": "^2.1.5",
     "@types/node": "^20.11.17",
